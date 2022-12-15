@@ -32,7 +32,10 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt', # Proteger API com JWT.
     'rest_framework_simplejwt.token_blacklist', # APP responsável por enviar o token de atualização para uma lista negra que não permite que seja usado novamente.
     'product', # APP para estudar requisições com Angular e Token.
+    'user', # APP de usuário.
 ]
+
+AUTH_USER_MODEL = 'user.User'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
