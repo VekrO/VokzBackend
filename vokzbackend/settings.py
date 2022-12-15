@@ -17,7 +17,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['concerned-hobbies-production.up.railway.app']
 
-
 # Application definition
 
 INSTALLED_APPS = [
